@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap");
+
+* {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(29, 29, 29);
+  color: white;
+  font-family: "Manrope", sans-serfif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.headerLeftContainer h3 {
+  color: rgb(37, 37, 253);
+  font-size: 1.8rem;
+}
+
+.headerRight {
+  width: 50%;
+}
+
+#modem {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: rgb(37, 37, 253);
+  color: white;
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px;
+  display: block;
+}
+
+.sectionRight {
+  width: 100%;
+}
+
+.sectionLeft {
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.investors {
+  display: grid;
+  align-items: center;
+  height: 75%;
+}
+
+.imgContainer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.imgContainer img {
+  height: 60px;
+  margin: 0 auto;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 810px) {
+  nav {
+    grid-template-columns: 30% 70%;
+  }
+
+  nav ul {
+    font-size: 0.5rem;
+  }
+
+  nav h2 {
+    font-size: 1rem;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .headerLeftContainer {
+    display: block;
+    align-items: center;
+  }
+
+  .headerLeftContainer {
+    display: block;
+    align-items: center;
+  }
+
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .btnContainer {
+    margin: 0 auto;
+  }
+
+  .imgContainer img {
+    height: 30px;
+  }
+}
